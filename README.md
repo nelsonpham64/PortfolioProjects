@@ -139,6 +139,8 @@ Possible contributing factors include:
 
 ## Dashboard
 
+![Dashboard Preview](TableauCOVIDvisual.png)
+
 View Interactive Tableau Dashboard:
 
 https://public.tableau.com/app/profile/nelson.pham1144/viz/CovidDashboard_17717197375120/Dashboard1
