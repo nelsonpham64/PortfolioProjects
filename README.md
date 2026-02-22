@@ -24,13 +24,41 @@ COVID-19 had a significant global impact, but the severity varied across countri
 **Source:** Our World in Data  
 https://ourworldindata.org/covid-deaths
 
-The dataset includes:
+This analysis uses two primary datasets: COVID-19 deaths and COVID-19 vaccinations. Both datasets were originally part of a single unified dataset from Our World in Data. For the purpose of practicing relational database concepts and SQL joins, the data was intentionally split into two separate tables and later recombined using JOIN operations. This allowed for more realistic data modeling and demonstrated the ability to integrate multiple data sources for comprehensive analysis.
 
+### CovidDeathsMain Dataset Includes:
+
+- ISO country code
+- Continent and country location
+- Date of record
+- Population size
 - Total COVID-19 cases
+- New daily cases
 - Total COVID-19 deaths
-- Population by country
-- Daily reported data
-- Geographic and continent classifications
+- New daily deaths
+- Cases per million population
+- Deaths per million population
+- Reproduction rate
+- ICU patient counts
+- Hospital patient counts
+- Weekly hospital and ICU admissions
+
+### CovidVaccinations Dataset Includes:
+
+- Total COVID-19 vaccinations
+- People vaccinated
+- People fully vaccinated
+- New daily vaccinations
+- Vaccination rates per hundred people
+- COVID-19 testing counts
+- Positive test rates
+- Population density
+- Median age
+- GDP per capita
+- Human Development Index (HDI)
+- Life expectancy
+- Hospital beds per thousand
+- Smoking rates and health indicators
 
 ---
 
